@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:Login_project/otp.dart';
-import 'package:sms_autofill/sms_autofill.dart';
 
 class LoginScreen extends StatefulWidget {
   @override
@@ -48,9 +47,7 @@ class _LoginScreenState extends State<LoginScreen> {
             width: double.infinity,
             child: FlatButton(
               color: Colors.blue,
-              onPressed: () async {
-                final signcode = await SmsAutoFill().getAppSignature;
-                print(signcode);
+              onPressed: () {
                 Navigator.of(context).push(MaterialPageRoute(
                     builder: (context) => OTPScreen(_controller.text)));
               },

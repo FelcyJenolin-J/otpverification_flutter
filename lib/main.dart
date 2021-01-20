@@ -18,4 +18,3 @@ class MyApp extends StatelessWidget {
     return LoginScreen();
   }
 }
-//https://www.youtube.com/watch?v=l_DqmTQ5dHQ

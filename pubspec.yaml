@@ -17,6 +17,7 @@ publish_to: "none" # Remove this line if you wish to publish to pub.dev
 # https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
 version: 1.0.0+1
 
+
 environment:
   sdk: ">=2.7.0 <3.0.0"
 
@@ -31,7 +32,8 @@ dependencies:
   firebase_core: ^0.7.0
   pinput: ^1.0.0
   sms_autofill: ^1.2.7
-  
+  #sms_otp_auto_verify: ^1.2.2
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -45,6 +47,8 @@ flutter:
   # included with your application, so that you can use the icons in
   # the material Icons class.
   uses-material-design: true
+  
+    
 
   # To add assets to your application, add an assets section, like this:
   # assets:
