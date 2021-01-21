@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Login_project</string>
+    <string name="facebook_app_id">752767819009649</string>
+    <string name="fb_login_protocol_scheme">fb752767819009649</string>
+</resources>
